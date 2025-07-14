@@ -21,7 +21,7 @@
   #Experimental
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  networking.hostName = "stuart"; # TODO: Set your hostname
+  networking.hostName = "StuartOS"; # TODO: Set your hostname
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;

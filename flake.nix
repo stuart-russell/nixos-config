@@ -18,7 +18,7 @@
     pkgs = nixpkgs.legacyPackages.${system};
   in {
     nixosConfigurations = {
-      StuartOS = lib.nixosSystem {
+      StuartOS = lib.nixosSystem { # TODO: Config name should match hostname
         inherit system;
         modules = [ 
         ./configuration.nix
