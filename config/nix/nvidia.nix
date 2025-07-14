@@ -1,8 +1,8 @@
 # Uncomment the following block to enable NVIDIA drivers
 
-# { config, pkgs, ... }: 
+{ config, pkgs, ... }: 
 
-# {
+{
 #   services.xserver.videoDrivers = [ "nvidia" ];
 #   hardware.graphics.enable = true;
 #   hardware.nvidia = {
@@ -12,4 +12,4 @@
 #     nvidiaSettings = true;
 #     package = config.boot.kernelPackages.nvidiaPackages.stable;
 #   };
-# }
+}
