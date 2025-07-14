@@ -7,7 +7,7 @@
  
   imports = [
     # import home manager configuration files
-    # ./config/home/example.nix
+    ./config/home/hyprland
   ];
   home.packages = with pkgs; [
     rofi-wayland
@@ -15,6 +15,7 @@
     wl-clipboard
     spotify
     inputs.zen-browser.packages."${system}".specific
+    steam
   ];
 
   home.file = {};

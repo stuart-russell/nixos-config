@@ -14,6 +14,7 @@
       ./config/nix/nvidia.nix
       ./config/nix/packages.nix
       ./config/nix/sound.nix
+      ./config/nix/ssh.nix
       ./config/nix/steam.nix
       ./config/nix/users.nix
     ];
@@ -21,7 +22,7 @@
   #Experimental
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  networking.hostName = "StuartOS"; # TODO: Set your hostname
+  networking.hostName = "StuartOS"; # TODO: Set your machines hostname
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;

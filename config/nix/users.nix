@@ -5,7 +5,7 @@
     isNormalUser = true;
     shell = pkgs.zsh;
     description = "Stuart";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [ ];
   };
 
