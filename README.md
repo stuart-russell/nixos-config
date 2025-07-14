@@ -4,4 +4,4 @@ My personal NixOS configuration featuring Home Manager and Hyprland (eventually)
 # Install
 `git clone https://github.com/stuart-russell/nixos-config.git ~/.nixos-config`
 
-`sudo nixos-rebuild switch --flake ~/.nixos-config/flake.nix`
+`sudo nixos-rebuild switch --flake ~/.nixos-config`
